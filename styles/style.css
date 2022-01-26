@@ -79,18 +79,20 @@ img{
   margin: 5px auto 13px 15px;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
   color: #000000;
 }
 footer{
-  position: relative;
   position: fixed;
   bottom: 0px;
   width: 100vw;
   height: 92px;
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer_button{
-  position: absolute;
   left: 25px;
   bottom: 16px;
   background: #CBCBCB;
