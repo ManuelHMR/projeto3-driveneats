@@ -1,23 +1,17 @@
-*{
-  box-sizing: content-box;
-}
 body{
   font-family: 'Roboto', sans-serif;
   background-color: #E5E5E5;
-  display: flex;
-  justify-content: center;
-  height: 1000px;
 }
 header{
   position: fixed;
   top: 0px;
-  width: 414px;
+  width: 100vw;
   height: 92px;
   background-color: #CF2B2B;
 }
 header h1{
   color: #ffffff;
-  font-style: normal;
+  font-style: "Rightous", cursive;
   font-weight: normal;
   font-size: 44px;
   line-height: 55px;
@@ -25,7 +19,6 @@ header h1{
   margin-left: 21px;
 }
 header h2{
-  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   margin-left: 21px;
   font-size: 18px;
@@ -33,7 +26,8 @@ header h2{
 }
 .container{
   margin-top: 92px;
-  width: 414px;
+  margin-bottom: 100px;
+  width: 100vw;
 }
 section{
   margin-top: 31px;
@@ -50,6 +44,7 @@ section h1{
 }
 .options{
   display: flex;
+  overflow-x:scroll;
 }
 .box{
   width: 172px;
@@ -86,15 +81,15 @@ img{
   line-height: 19px;
   color: #000000;
 }
-.bottom{
+footer{
   position: relative;
   position: fixed;
   bottom: 0px;
-  width: 414px;
+  width: 100vw;
   height: 92px;
   background-color: #ffffff;
 }
-.bottom_button{
+.footer_button{
   position: absolute;
   left: 25px;
   bottom: 16px;
@@ -103,8 +98,9 @@ img{
   width: 364px;
   height: 61px;
 }
-.bottom_button h1{
+.footer_button h1{
   font-size: 20px;
+  margin-top: 6px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.018em;
