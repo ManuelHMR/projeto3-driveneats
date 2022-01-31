@@ -28,120 +28,120 @@
       <h2>Sua comida em 6 minutos</h2>
     </header>
     <div class="container">
-      <section class="dishes">
+      <section class="dishes" identifier="dishes">
         <h1>Primeiro, seu prato</h1>
         <div class="options">
-          <div class="box" onclick="selectItem(this)" data-identifier="dishes">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/xtudo.jpg" />
-            <h1>X-tudo</h1>
+            <h1 data-identifier="food-title">X-tudo</h1>
             <h2>
               Carne de boi ou frango, molho especial da casa</h2>
-            <h3>R$ 21,90</h3>
+            <h3 data-identifier="food-price">R$ 21,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="dishes">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option"">
             <img src="images/triomineiro.jpg" />
-            <h1>Porção trio mineiro</h1>
+            <h1 data-identifier="food-title">Porção trio mineiro</h1>
             <h2>1kg de linguiça, mandioca e torresmo</h2>
-            <h3>R$ 19,90</h3>
+            <h3 data-identifier="food-price">R$ 19,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="dishes">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/feijaotropeiro.jpg" />
-            <h1>Feijão tropeiro</h1>
+            <h1 data-identifier="food-title">Feijão tropeiro</h1>
             <h2>Serve 4 pessoas,<br />acompanhamentos inclusos</h2>
-            <h3>R$ 24,90</h3>
+            <h3 data-identifier="food-price">R$ 24,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="dishes">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/fritas.jpg" />
-            <h1>Fritas</h1>
+            <h1 data-identifier="food-title">Fritas</h1>
             <h2>Serve 2 pessoas,<br />acompanhada por bacon e queijo</h2>
-            <h3>R$ 14,90</h3>
+            <h3 data-identifier="food-price">R$ 14,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
         </div>
       </section>
-      <section class="drink">
+      <section class="drink" data-identifier="drinks">
         <h1>Agora, sua bebida</h1>
-        <div class="options">
-          <div class="box" onclick="selectItem(this)" data-identifier="drinks">
+        <div class="options" >
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/coca.jpg" />
-            <h1>Coca-cola</h1>
+            <h1 data-identifier="food-title">Coca-cola</h1>
             <h2>Lata de 350ml</h2>
-            <h3>R$ 4,90</h3>
+            <h3 data-identifier="food-price">R$ 4,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="drinks">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/guarana.jpg" />
-            <h1>Guaraná</h1>
+            <h1 data-identifier="food-title">Guaraná</h1>
             <h2>Lata de 350ml</h2>
-            <h3>R$ 3,90</h3>
+            <h3 data-identifier="food-price">R$ 3,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="drinks">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/agua.jpg" />
-            <h1>Água mineral</h1>
+            <h1 data-identifier="food-title">Água mineral</h1>
             <h2>Garrafa de 600ml</h2>
-            <h3>R$ 2,90</h3>
+            <h3 data-identifier="food-price">R$ 2,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
-          <div class="box" onclick="selectItem(this)" data-identifier="drinks">
+          <div class="box" onclick="selectItem(this)" data-identifier="food-option">
             <img src="images/cachaca.jpeg" />
-            <h1>Cana da Serra</h1>
+            <h1 data-identifier="food-title">Cana da Serra</h1>
             <h2>Garrafa de 600ml</h2>
-            <h3>R$ 19,90</h3>
+            <h3 data-identifier="food-price">R$ 19,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
         </div>
       </section>
-      <section class="dessert">
+      <section class="dessert" data-identifier="desserts">
         <h1>Por fim, sua sobremesa</h1>
         <div class="options">
           <div
             class="box"
-            onclick="selectItem(this)"
-            data-identifier="desserts"
+            onclick="selectItem(this)" 
+            data-identifier="food-option"  
           >
             <img src="images/brigadeiro.jpg" />
-            <h1>Brigadeiro</h1>
+            <h1 data-identifier="food-title">Brigadeiro</h1>
             <h2>5 unidades</h2>
-            <h3>R$ 4,90</h3>
+            <h3 data-identifier="food-price">R$ 4,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
           <div
             class="box"
             onclick="selectItem(this)"
-            data-identifier="desserts"
+            data-identifier="food-option"
           >
             <img src="images/cocada.jpg" />
-            <h1>Cocada</h1>
+            <h1 data-identifier="food-title">Cocada</h1>
             <h2>6 unidades</h2>
-            <h3>R$ 6,90</h3>
+            <h3 data-identifier="food-price">R$ 6,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
           <div
             class="box"
             onclick="selectItem(this)"
             onclick="select_box()"
-            data-identifier="desserts"
+            data-identifier="food-option"
           >
             <img src="images/fatiadebolo.jpg" />
-            <h1>Fatia de bolo</h1>
+            <h1 data-identifier="food-title">Fatia de bolo</h1>
             <h2>1 unidade</h2>
-            <h3>R$ 9,90</h3>
+            <h3 data-identifier="food-price">R$ 9,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
           <div
             class="box"
             onclick="selectItem(this)"
             onclick="select_box()"
-            data-identifier="desserts"
+            data-identifier="food-option"
           >
             <img src="images/sorvete.jpg" />
-            <h1>Sorvete</h1>
+            <h1 data-identifier="food-title">Sorvete</h1>
             <h2>1 unidade</h2>
-            <h3>R$ 11,90</h3>
+            <h3 data-identifier="food-price">R$ 11,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
         </div>
