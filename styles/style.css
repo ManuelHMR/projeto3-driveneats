@@ -114,10 +114,10 @@ footer {
   align-items: center;
 }
 
-.footer_button {
+.footer_button{
   left: 25px;
   bottom: 16px;
-  background: #CBCBCB;
+  background-color: green;
   border-radius: 50px;
   width: 364px;
   height: 61px;
@@ -126,8 +126,10 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-.footer_button h1 {
+.footer_button:disabled{
+  background: #CBCBCB;
+}
+.footer_button h1{
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -149,6 +151,33 @@ ion-icon{
   color: green;
   display: block;
 }
-.footer_button.enabled{
-  background-color: green;
+.finish_back_ground{
+  display:none;
+}
+.finish_back_ground.enabled{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 3;
+}
+.finish_order{
+  position: fixed;
+  left: 20vw;
+  top: 30vh;
+  width: 377px;
+  height: 353px;
+  background: #50D074;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.finish_order h1{
+  padding-top:21px;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
 }

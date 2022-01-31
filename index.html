@@ -15,6 +15,14 @@
     <title>DrivenEats</title>
   </head>
   <body>
+    <div class="finish_back_ground">
+      <div class="finish_order">
+        <h1>Confirme seu pedido</h1>
+        <h2 class="selected_Dishes.name"></h2>
+        <h2 class="selected_Drink.name"></h2>
+        <h2 class="selected_Dessert.name"></h2>
+      </div>
+    </div>
     <header>
       <h1>DrivenEats</h1>
       <h2>Sua comida em 6 minutos</h2>
@@ -126,15 +134,25 @@
             <h3>R$ 9,90</h3>
             <ion-icon name="checkmark-circle" />
           </div>
+          <div
+            class="box"
+            onclick="selectItem(this)"
+            onclick="select_box()"
+            data-identifier="desserts"
+          >
+            <img src="images/sorvete.jpg" />
+            <h1>Sorvete</h1>
+            <h2>1 unidade</h2>
+            <h3>R$ 11,90</h3>
+            <ion-icon name="checkmark-circle" />
+          </div>
         </div>
       </section>
     </div>
     <footer>
-      <div class="footer_button">
-        <h1>
-          Selecione os 3 itens para fechar o pedido
-        </h1>
-      </div>
+      <button class="footer_button" disabled onclick="finishOrder()">
+        <h1>Selecione os 3 itens para fechar o pedido</h1>
+      </button>
     </footer>
     <script
       type="module"
