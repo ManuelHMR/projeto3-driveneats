@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #E5E5E5;
 }
-
 header {
   position: fixed;
   top: 0px;
@@ -15,24 +13,21 @@ header {
   background-color: #CF2B2B;
   z-index: 2;
 }
-
 header h1 {
   color: #ffffff;
-  font-style: "Rightous", cursive;
+  font-family: 'Righteous', cursive;
   font-weight: normal;
   font-size: 44px;
   line-height: 55px;
   letter-spacing: -0.012em;
   margin-left: 21px;
 }
-
 header h2 {
   color: #ffffff;
   margin-left: 21px;
   font-size: 18px;
   line-height: 21px;
 }
-
 .container {
   margin-top: 92px;
   margin-bottom: 100px;
